@@ -267,7 +267,7 @@ else if (token == And) {
 表达式有优先级, 需要先算完高优先级再轮到低优先级, 也就是需要先 codegen 高优先级
 ```c
 void expression(int level);
-- [ ] while (token >= level)
+while (token >= level)
 ```
 
 ## crt
